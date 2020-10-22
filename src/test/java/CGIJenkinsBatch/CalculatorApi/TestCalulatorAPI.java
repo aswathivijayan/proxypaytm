@@ -32,5 +32,17 @@ public class TestCalulatorAPI {
 		Assert.assertEquals(res,100,"Addition function not working if one of the argument is 0");
 		
 	}
+	@Test(priority=3)
+	public void TestMultiplicationWithPositiveValues() {
+		res=C.Multiplication(20,30);
+		Assert.assertEquals(res,600,"Multiplication function not working with positive numbers");
+		
+	}
+	@Test(priority=4)
+	public void TestMultiplicationWithZeroValues() {
+		res=C.Multiplication(100, 0);
+		Assert.assertEquals(res,0,"Multiplication function not working if one of the argument is 0");
+		
+	}
 
 }

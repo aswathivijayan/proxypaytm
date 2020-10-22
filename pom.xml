@@ -6,7 +6,7 @@
 
   <groupId>CGIJenkinsBatch</groupId>
   <artifactId>CalculatorApi</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>2.0</version>
 
   <name>CalculatorApi</name>
   <!-- FIXME change it to the project's website -->
